@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Опитування</title>
+</head>
+<body>
+<header>
+    <h1>Яку каву обереш ти?</h1>
+</header>
+<section>
+    <form method="POST" action="https://formspree.io/andriyshevchyk777@gmail.com">
+        <label for="user-name">Ваше ім'я</label>
+        <input id="user-name" type="text" name="user-name" placeholder="User Name" required>
+        <br>
+        <label>Ваша пошта: 
+        <input type="email" name="user-email" placeholder="User Email" required>      
+        </label>
+        <br>
+            <label>
+                Оберіть каву:
+            </label>
+            <label>
+                <input type="radio" name="Оберіть каву"
+                 value="espresso"> Еспресо
+            </label>
+            <label>
+                <input type="radio" name="Оберіть каву"
+                 value="amerecano"> Американо
+            </label>
+             <label>
+                <input type="radio" name="Оберіть каву"
+                 value="capuchino"> Капучіно
+            </label>
+            <label>
+                <input type="radio" name="Оберіть каву"
+                 value="late"> Лате
+            </label>
+            <br>
+             <label>
+               Добавки?:
+            </label>
+            <label>
+                <input type="checkbox" name="Добавки"
+                 value="s1"> Сироп
+            </label>
+               <label>
+                <input type="checkbox" name="Цукор"
+                 value="k1"> Какао
+            </label>
+           <label>
+                <input type="checkbox" name="Цукор"
+                 value="k2"> Кориця
+            </label>
+            <br>
+            
+            <label>Чи бажаєте щось особливе:
+                <textarea name="Чи бажаєте щось особливе" placeholder="Ваші побажаня"></textarea>
+            </label>
+            <br>
+            <input type="submit">
+            <input type="reset">
+    </form>
+</section>
+<img src="img/menu.jpg" alt="coffe"> 
+<br>
+<a href="index.html"><h1>Home</h1></a>
+</body>
+</html>
